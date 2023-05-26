@@ -5,7 +5,7 @@ class App < Roda
 
     r.on "articles" do
       r.is ":id" do |article_id|
-        "Show articles #{article_id}"
+        "Show article #{article_id}"
       end
 
       r.is do
